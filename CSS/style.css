@@ -1,0 +1,31 @@
+/* To create a resposive website- First reset the margin and padding by doing first thing down */
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+}
+.nav-list {
+  background-color: red;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li {
+  list-style: none;
+  padding: 26px 30px;
+
+}
+
+
+.nav-list li a {
+    text-decoration: none;
+}
+
+.navright {
+  background-color: green;
+  width: 50%;
+  text-align: right;
+}
